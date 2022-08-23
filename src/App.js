@@ -1,6 +1,6 @@
 //state
 import React, { Component } from 'react';
-
+import "./App.css"
 // class Stu extends Component{
 //     state = {
 //       name: "Aamir"  
@@ -11,15 +11,16 @@ import React, { Component } from 'react';
 // }
 
 // with constructor
+
 class Stu extends Component{
     constructor(props){
-        super(props);
+        super();
         this.state = {
-            name: "sspatvarcl"
-        };
+            name: "Aamir"
+        }
     }
     render(){
-        return <h1> hello {this.state.name} </h1>
-    }
+        return<h3 className='ne'>Hello {this.state.name}</h3> ;
+    };
 }
 export default Stu;
