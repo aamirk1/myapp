@@ -24,3 +24,5 @@ class Stu extends Component{
     };
 }
 export default Stu;
+
+
