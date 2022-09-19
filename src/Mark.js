@@ -11,7 +11,8 @@ export default class Mark extends Component {
         console.log("get drived");
         console.log(props, state);
         if(props.roll !== state.nroll){
-            return { nroll: props.roll};
+            return { 
+              nroll: props.roll};
         }
         return null;
     }
